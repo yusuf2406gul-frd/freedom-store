@@ -692,3 +692,9 @@ box-shadow:0 2px 12px rgba(0,0,0,.08);
     font-size:18px;
     font-weight:bold;
 }
+.featured__img{
+    width: 220px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
