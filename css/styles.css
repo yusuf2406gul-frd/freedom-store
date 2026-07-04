@@ -662,4 +662,17 @@ img {
   {
     right: 15%;
   }
+  /* FREEDOM Logo */
+.logo-img{
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+}
+
+.nav__logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-weight:700;
+}
 }
