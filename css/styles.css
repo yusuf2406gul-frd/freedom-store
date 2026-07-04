@@ -240,7 +240,9 @@ box-shadow:0 2px 12px rgba(0,0,0,.08);
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 260px;
+  width: 320px;
+  max-height: 80vh;
+  object-fit: contain;
 }
 
 
