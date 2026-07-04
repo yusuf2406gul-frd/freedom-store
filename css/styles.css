@@ -10,12 +10,12 @@
 
 /*===== Colores =====*/
 :root {
-  --first-color: #E55947;
-  --first-color-alt: #D2321E;
+  --first-color: #000000;
+  --first-color-alt: #222222;
   --white-color: #FAFAFF;
   --dark-color: #101010;
   --dark-color-light: #606060;
-  --gray-color: #F0F1F3;
+  --gray-color: #F8F8F8;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -132,7 +132,8 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background: var(--gray-color);
+  background:#fff;
+box-shadow:0 2px 12px rgba(0,0,0,.08);
 }
 
 /*===== NAV =====*/
@@ -247,17 +248,17 @@ img {
 .button
 {
   display: inline-block;
-  background-color: var(--first-color);
-  color: var(--white-color);
-  padding: 1rem;
-  font-size: var(--small-font-size);
-  font-weight: var(--font-semi);
-  transition: .3s;
+  background:#000;
+  color:#fff;
+  padding:14px 28px;
+ border-radius:8px;
+  font-weight:700;
+  transition:.3s;
 }
 
-.button:hover
-{
-  background-color: var(--first-color-alt);
+.button:hover{
+  background:#333;
+  transform:translateY(-2px);
 }
 
 
