@@ -675,4 +675,19 @@ img {
     gap:10px;
     font-weight:700;
 }
+}.logo-img{
+    width:28px !important;
+    height:28px !important;
+    object-fit:contain;
+}
+
+.nav__logo{
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+
+.nav__logo span{
+    font-size:18px;
+    font-weight:bold;
 }
