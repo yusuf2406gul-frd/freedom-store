@@ -243,11 +243,12 @@ position: relative;
 
 .home__img
 {
- position: absolute;
-  right: 6%;
-  bottom: 0;
-  width: 520px;
-  max-height: 80vh;
+  position: static;
+  display: block;
+  width: 260px;
+  max-width: 100%;
+  height: auto;
+  margin: 2rem auto 0;
   object-fit: contain;
 }
 
@@ -663,10 +664,14 @@ position: relative;
 
 @media screen and (min-width: 1024px)
 {
-   .bd-grid
+   .home__img
     {
-        margin-left: auto;
-        margin-right: auto;
+        position: absolute;
+        right: 4%;
+        bottom: 0;
+        width: 600px;
+        max-height: 78vh;
+        object-fit: contain;
     }
 
     .home__container
