@@ -699,6 +699,7 @@ box-shadow:0 2px 12px rgba(0,0,0,.08);
     max-width: 100%;
     margin: 0;
     justify-self: end;
+     transform: translateY(-80px);
   }
 }
 }
