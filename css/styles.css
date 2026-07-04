@@ -663,29 +663,32 @@ position: relative;
 
 @media screen and (min-width: 1024px)
 {
-  .bd-grid
-  {
-    margin-left: auto;
-    margin-right: auto;
-  }
+   .bd-grid
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-  .home__data
-  {
-    padding-left: 7rem;
-    padding-right: 3rem;
-    z-index: 2;
-  }
+    .home__container
+    {
+        min-height: 78vh;
+        padding: 0 4rem;
+    }
 
-  .home__img
-  {
-    right: 14%;
-    width: 520px;
-  }
-  /* FREEDOM Logo */
-.logo-img{
-    width: 42px;
-    height: 42px;
-    object-fit: contain;
+    .home__data
+    {
+        padding-left: 2rem;
+        padding-right: 3rem;
+        max-width: 520px;
+        z-index: 2;
+    }
+
+    .home__img
+    {
+        right: 4%;
+        width: 600px;
+        max-height: 78vh;
+        object-fit: contain;
 }
 
 .nav__logo{
