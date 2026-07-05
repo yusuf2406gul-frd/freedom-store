@@ -332,6 +332,8 @@ box-shadow:0 2px 12px rgba(0,0,0,.08);
 
 .featured__product
 {
+  display: block;
+  color: var(--dark-color);
   transition: .3s;
 }
 
