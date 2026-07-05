@@ -663,8 +663,8 @@ box-shadow:0 2px 12px rgba(0,0,0,.08);
 
   .home__title
   {
-    line-height: .8;
-    letter-spacing: 1.5rem;
+    line-height: 1.1;
+  letter-spacing: .5rem;
   }
 
   .home__img
@@ -796,10 +796,16 @@ box-shadow:0 2px 12px rgba(0,0,0,.08);
 
   .home__title
   {
-    line-height: .8;
-    letter-spacing: 1.5rem;
+    line-height: 1.1;
+  letter-spacing: .5rem;
   }
-
+.home__title span
+{
+  display: block;
+  margin-top: 1rem;
+  font-size: var(--h1-font-size);
+  letter-spacing: .35rem;
+}
   .home__img
   {
     width: 370px;
