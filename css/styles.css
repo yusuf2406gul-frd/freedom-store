@@ -383,6 +383,13 @@ box-shadow:0 2px 12px rgba(0,0,0,.08);
 {
   color: var(--dark-color-light);
   font-weight: var(--font-semi);
+  .featured__info
+{
+  font-size: 0.85rem;
+  color: var(--dark-color-light);
+  margin-top: 6px;
+  line-height: 1.4;
+}
 }
 
 
