@@ -600,14 +600,43 @@ box-shadow:0 2px 12px rgba(0,0,0,.08);
   }
 
   .nav__menu
-  {
-    margin-left: auto;
-  }
+{
+  margin-left: auto;
+}
 
-  .nav__list
-  {
-    display: flex;
-  }
+.nav__list
+{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav__item
+{
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.nav__link
+{
+  display: inline-block;
+}
+  .nav
+{
+  display: flex;
+  align-items: center;
+}
+
+.nav__cart,
+.nav__toggle
+{
+  font-size: 1.3rem;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
   .nav__item
   {
